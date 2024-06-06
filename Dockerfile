@@ -24,7 +24,6 @@ RUN DEBIAN_FRONTEND=noninteractive      \
         ca-certificates                 \
         curl                            \
         expect                          \
-        firewalld                       \
         fonts-baekmuk                   \
         fonts-liberation2               \
         fonts-noto                      \
@@ -38,6 +37,7 @@ RUN DEBIAN_FRONTEND=noninteractive      \
         policycoreutils                 \
         sysstat                         \
         unzip                           \
+        ufw                             \
         zip                             
  
 # install user management
